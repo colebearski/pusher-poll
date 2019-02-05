@@ -1,0 +1,30 @@
+{
+  "name": "pusher-poll",
+  "version": "1.0.0",
+  "description": "Real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colebearski/pusher-poll.git"
+  },
+  "author": "Cole Pedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colebearski/pusher-poll/issues"
+  },
+  "homepage": "https://github.com/colebearski/pusher-poll#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "pusher": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
